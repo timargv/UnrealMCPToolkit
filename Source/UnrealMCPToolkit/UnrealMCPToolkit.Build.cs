@@ -21,9 +21,12 @@ public class UnrealMCPToolkit : ModuleRules
 			new string[]
 			{
 				"JsonUtilities",
-				"UnrealEd",
+				"UnrealEd",            // editor + viewport access, save_all
 				"ModelContextProtocol",
-				"PythonScriptPlugin"
+				"PythonScriptPlugin",
+				"AssetRegistry",       // list_assets
+				"ImageCore",           // take_screenshot: FImage/FImageView resize
+				"ImageWrapper"         // take_screenshot: JPEG/PNG encoding (via FImageUtils)
 			});
 	}
 }

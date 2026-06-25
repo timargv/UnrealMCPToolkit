@@ -1,9 +1,9 @@
 {
 	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
+	"Version": 2,
+	"VersionName": "1.1",
 	"FriendlyName": "Unreal MCP Toolkit",
-	"Description": "Editor toolkit exposing Unreal Editor automation over the Model Context Protocol, with Python scripting and console-command support.",
+	"Description": "Editor toolkit exposing Unreal Editor automation over the Model Context Protocol: Python scripting, console commands, context-safe viewport screenshots, save-all, asset listing and output-log access.",
 	"Category": "Other",
 	"CreatedBy": "Timur Ragimkhanov",
 	"CreatedByURL": "",
