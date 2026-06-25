@@ -1,0 +1,10 @@
+# Unreal Engine build artifacts
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# IDE / editor files
+.vs/
+*.sln
+*.suo

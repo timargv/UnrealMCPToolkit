@@ -1,0 +1,13 @@
+# Normalize line endings automatically.
+* text=auto
+
+# Source files use CRLF (Windows / Unreal convention).
+*.cpp eol=crlf
+*.h   eol=crlf
+*.cs  eol=crlf
+*.uplugin eol=crlf
+
+# Docs and config use LF.
+*.md   eol=lf
+*.json eol=lf
+*.yml  eol=lf
