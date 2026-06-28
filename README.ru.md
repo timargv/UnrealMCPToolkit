@@ -8,6 +8,7 @@
 ![Status](https://img.shields.io/badge/status-experimental-orange)
 ![Version](https://img.shields.io/badge/version-1.1-informational)
 ![Requires](https://img.shields.io/badge/requires-Model%20Context%20Protocol%20%2B%20Python-lightgrey)
+[![Latest release](https://img.shields.io/github/v/release/timargv/UnrealMCPToolkit?label=download&logo=github)](https://github.com/timargv/UnrealMCPToolkit/releases/latest)
 
 > Управляй редактором **Unreal Engine 5.8** из любого **MCP-клиента / агента** — универсальные инструменты скриптинга (`execute_python`, `execute_console_command`) плюс редакторские удобства (`take_screenshot`, `save_all`, `list_assets`, `get_output_log`) поверх встроенного в UE сервера **Model Context Protocol**.
 
@@ -48,6 +49,12 @@
 Оба движковых плагина прописаны зависимостями в `.uplugin`, поэтому включаются автоматически вместе с этим плагином.
 
 ## Установка
+
+### Вариант A — Готовая сборка (без компиляции)
+
+Скачай последний **[precompiled-релиз](https://github.com/timargv/UnrealMCPToolkit/releases/latest)** (UE 5.8 / Win64), распакуй папку `UnrealMCPToolkit` в каталог `Plugins/` своего проекта и запусти редактор — без сборки. Работает даже в Blueprint-only проектах. Движок должен быть **ровно UE 5.8** (бинарники привязаны к версии).
+
+### Вариант B — Из исходников
 
 Склонируй в папку `Plugins/` своего проекта и пересобери:
 

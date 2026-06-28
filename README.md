@@ -9,6 +9,7 @@
 ![Status](https://img.shields.io/badge/status-experimental-orange)
 ![Version](https://img.shields.io/badge/version-1.1-informational)
 ![Requires](https://img.shields.io/badge/requires-Model%20Context%20Protocol%20%2B%20Python-lightgrey)
+[![Latest release](https://img.shields.io/github/v/release/timargv/UnrealMCPToolkit?label=download&logo=github)](https://github.com/timargv/UnrealMCPToolkit/releases/latest)
 
 > Control the **Unreal Engine 5.8** editor from any **MCP client / agent** — universal scripting tools (`execute_python`, `execute_console_command`) plus editor conveniences (`take_screenshot`, `save_all`, `list_assets`, `get_output_log`) layered on Epic's built-in **Model Context Protocol** server.
 
@@ -49,6 +50,12 @@ UE 5.8 ships Epic's **Model Context Protocol** plugin — but that is only the *
 Both engine plugins are declared as dependencies in the `.uplugin`, so they are enabled automatically with this plugin.
 
 ## Install
+
+### Option A — Precompiled build (no compilation)
+
+Download the latest **[precompiled release](https://github.com/timargv/UnrealMCPToolkit/releases/latest)** (UE 5.8 / Win64), extract the `UnrealMCPToolkit` folder into your project's `Plugins/` directory, and launch the editor — no build step. Works even in Blueprint-only projects. Your engine must be **exactly UE 5.8** (precompiled binaries are version-locked).
+
+### Option B — From source
 
 Clone into your project's `Plugins/` folder, then rebuild:
 
